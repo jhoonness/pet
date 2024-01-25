@@ -19,17 +19,20 @@
         display: block;
     }
     
-    .navigation_header{
-        position: absolute;
-        top: 0;
-        flex-direction: column;
-        background-color: #222222;
-        height: 100%;
-        width: 40vw;
-        padding: 16px;
-        animation-duration: 1s;
-        margin-left: -200vw;
-    }
+    .navigation_header {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    flex-direction: column;
+    background-color: #222222;
+    height: 100%;
+    width: 40vw;
+    padding: 16px;
+    animation-duration: 1s;
+    display: flex;
+    transition: left 0.5s ease;
+}
+    
 }
     @keyframes showSidebar {
         from {margin-left: -200vw;}

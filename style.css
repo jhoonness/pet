@@ -1,0 +1,131 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(56, 56, 56);
+    color: aliceblue;
+}
+
+.btn-header-icon{
+    border: none;
+    margin-left: 2%;
+ display: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+@media screen and (max-width: 795px){
+    .btn-header-icon{
+        display: block;
+    }
+    
+    .navigation_header{
+        position: absolute;
+        top: 0;
+        flex-direction: column;
+        background-color: #222222;
+        height: 100%;
+        width: 40vw;
+        padding: 16px;
+        animation-duration: 1s;
+        margin-left: -200vw;
+    }
+}
+    @keyframes showSidebar {
+        from {margin-left: -200vw;}
+        top {margin-left: -60vw;}
+    }
+
+
+header{
+   
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 144px;
+    align-items: center;
+    align-content: center;
+    box-shadow: 30px 30px 30px rgb(37, 37, 37);
+    justify-content: space-around;
+} 
+
+
+.logo{
+    width: 45px;   
+    margin-right: 10px;
+}
+
+
+
+.linkheader{
+    font-size: 22px;
+    color: #818383;
+    font-weight: 600;
+    line-height: 29px;
+    cursor: pointer;
+    margin-right: 16px;
+    text-decoration: none;
+    transition: 1s;
+}
+.active{
+    color: aliceblue;
+    background-color: #313131;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+img{
+    width: 250px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+.button{
+    border-radius: 30px;
+    background: #665AE1;
+    width: 60px;
+    height: 41;
+    border: none;
+    Weight: 600;
+    font-size: 16px;
+    line-height: 29.26px;
+    margin-right: 5px;
+
+}
+.main{
+    display: flex;
+    align-items: center;
+    transition: 1s;
+}
+
+
+section{
+    display: inline-block;  
+    margin-left: 10vw;
+    align-items: center;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 24px;
+    
+}
+h2{
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 1em;
+}
+p{ 
+    width: 300px;
+    margin-bottom: 8px;
+}
+
+.button-main{
+    width: 80px;
+    Weight: 600;
+    filter: drop-shadow(4px 4px 8px #313131);
+   
+
+}
